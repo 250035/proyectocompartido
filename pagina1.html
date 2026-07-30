@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Matemática - Mi Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content-container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 40px;
+            text-align: center;
+            background: #1a1f29;
+            border-radius: 15px;
+            border: 1px solid #333;
+        }
+        .btn-regresar {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #fff780;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-regresar:hover {
+            text-decoration: underline;
+        }
+        .videos-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+            text-align: left;
+        }
+        .videos-list li {
+            background: #0b0e14;
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .videos-list a {
+            color: #fff780;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .videos-list a:hover {
+            text-decoration: underline;
+        }
+        .btn-drive {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #fff780;
+            color: #0b0e14;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .btn-drive:hover {
+            transform: scale(1.05);
+            background-color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-container">
+        <a href="index.html" class="btn-regresar">← Volver al inicio</a>
+        <h1>Sección de Matemática</h1>
+        <p>Aquí puedes ver los enlaces a los 5 videos de la materia o acceder directamente a la carpeta completa en Google Drive.</p>
+
+        <!-- Lista de los 5 videos -->
+        <ul class="videos-list">
+            <li>
+                <span>🎥 Video 1: [Angela Bethancourt]</span>
+                <a href="https://drive.google.com/file/d/15j6zWAxOn2oHixKVuapAsK93ck_krcWS/view?usp=drive_link" target="_blank">Ver video</a>
+            </li>
+            <li>
+                <span>🎥 Video 2: [Melany Díaz]</span>
+                <a href="https://drive.google.com/file/d/1I5CCX5GWa76P-SwKOZ1DXpa6O4a7AduN/view?usp=drive_link" target="_blank">Ver video</a>
+            </li>
+            <li>
+                <span>🎥 Video 3: [José Chanta]</span>
+                <a href="https://drive.google.com/file/d/109mumf_txRdjTyZo80jJoazpuUYUL5eU/view?usp=drive_link" target="_blank">Ver video</a>
+            </li>
+            <li>
+                <span>🎥 Video 4: [Gabriela Paz]</span>
+                <a href="https://drive.google.com/file/d/1pC3jKx_19NCGoS-N5G7auVRDUq9KnVw5/view?usp=drive_link" target="_blank">Ver video</a>
+            </li>
+            <li>
+                <span>🎥 Video 5: [Gerti Sincal]</span>
+                <a href="AQUÍ_PEGA_EL_ENLACE_DEL_VIDEO_5" target="_blank">Ver video</a>
+            </li>
+        </ul>
+
+        <!-- Botón seguro que redirige a Google Drive -->
+        <a href="https://drive.google.com/drive/folders/140iGFmoRIDwOzjWP6v61uPP3mt2qBlSe?usp=drive_link" target="_blank" class="btn-drive">
+            📂 Abrir Carpeta Completa en Drive
+        </a>
+    </div>
+
+</body>
+</html>
